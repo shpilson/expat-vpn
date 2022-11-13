@@ -10,40 +10,58 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Глеб",
+      image: "/assets/people-1.svg",
+      city: "Уральск",
+      country: "Казахстан",
+      rating: "5.0",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Спасибо за VPN, открываются все нужные русские сайты, такие как Гос Услуги, Петроэлектросбыт, фонд кап ремонта. Это классное подспорье. Спасибо большое за этот сервис! Рекомендую!",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Алекс",
+      image: "/assets/people-2.svg",
+      city: "Бишкек",
+      country: "Кыргызстан",
+      rating: "5.0",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Сервис работает исправно. Использую уже несколько недель для доступа к рабочим сервисам, перешел на платный пакет, чтобы поддержать и меньше переключаться On/off.",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Дмитрий",
+      image: "/assets/people-3.svg",
+      city: "Лиссабон",
+      country: "Португалия",
+      rating: "5.0",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Когда уехал за границу, пропал доступ к банк клиенту. Надо было кое-что проверить, и ужасом обнаружил, что сайт не работает. С помощью этого ВПНа получил доступ. Спасибо автору",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Екатерина",
+      image: "/assets/people-4.svg",
+      city: "Буэнос-Айрес",
+      country: "Аргентина",
+      rating: "5.0",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Боже, я думала никогда больше не смогу зайти в приложение Альфы!! Спасибо Вам огромное!!!!!!",
+    },
+    {
+      name: "Сева",
+      image: "/assets/people-5.svg",
+      city: "Астана",
+      country: "Казахстан",
+      rating: "5.0",
+      testimoni:
+        "Оставил заявку, на следующий день получил ключ. Всё настроил с первого раза, все отлично работает из Казахстана",
+    },
+    {
+      name: "Евгений",
+      image: "/assets/people-6.svg",
+      city: "Тбилиси",
+      country: "Грузия",
+      rating: "5.0",
+      testimoni:
+        "Все отлично! Относительно быстро сгенерировали ключ. Подключение на ура. Мне то что надо - для подключения к госуслугам и прочего в РФ. Спасибо. Развития проекта удачного!",
     },
   ],
 }) => {
