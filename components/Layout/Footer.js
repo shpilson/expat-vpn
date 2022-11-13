@@ -23,21 +23,6 @@ const Footer = () => {
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               <a href="https://openvpn.net/vpn-client/" target="_blank">Скачать OpenVPN</a>
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Pricing{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Locations{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Server{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Countries{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Blog{" "}
-            </li>
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
