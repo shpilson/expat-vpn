@@ -76,7 +76,6 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     Бесплатно
                   </p>
-                  <ButtonOutline>Выбрать</ButtonOutline>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -123,7 +122,6 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     200₽ <span className="text-black-500">/ месяц</span>
                   </p>
-                  <ButtonOutline>Выбрать</ButtonOutline>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -173,8 +171,6 @@ const Pricing = () => {
                   <p className="text-2xl text-black-600 text-center mb-4 ">
                     500₽ <span className="text-black-500">/ месяц</span>
                   </p>
-
-                  <ButtonOutline>Выбрать</ButtonOutline>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
