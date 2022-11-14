@@ -3,8 +3,7 @@ import emailjs from '@emailjs/browser';
 
 const ButtonPrimary = ({ children, addClass }) => {
   const [showModal, setShowModal] = React.useState(false);
-  const [showGreetingsl, setShowGreetings] = React.useState(false);
-
+  const [showGreetings, setShowGreetings] = React.useState(false);
 
   const form = useRef();
 
@@ -79,8 +78,6 @@ const ButtonPrimary = ({ children, addClass }) => {
                       <input name="plan" id="plan" type="text" placeholder="Пробный / Стандартный / Премиальный" className="px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full" />
                     </div>
 
-
-
                   </div>
                   {/*footer*/}
                   <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
@@ -94,7 +91,7 @@ const ButtonPrimary = ({ children, addClass }) => {
                     <button
                       className="bg-green-500 text-white active:bg-green-600 text-white-500 font-semibold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                       type="submit" id="button"
-                      onClick={() => setShowModal(false)}
+                      onClick={() => setShowGreetings(true)}
                     >
                       Получить ключ
                     </button>
@@ -106,6 +103,33 @@ const ButtonPrimary = ({ children, addClass }) => {
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </>
       ) : null}
+
+        {showGreetings ? (
+            <>
+                <div
+                    className="bg-gradient-to-b from-white-300 to-white-500 justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                >
+                    <div className="bg-gradient-to-b from-white-300 to-white-500 relative w-auto my-6 mx-auto max-w-sm">
+                        {/*content*/}
+                        <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                            {/*header*/}
+                            <div className="text-white px-6 py-4 border-0 rounded relative mb-4 bg-green-500">
+  <span className="text-xl inline-block mr-5 align-middle">
+    <i className="fas fa-bell" />
+  </span>
+                                <span className="inline-block align-middle mr-8 text-center text-white">
+                                    <b>Успешно отправлено!</b> <br/>
+                                    Скоро ключ будет на Вашей почте :)
+                                </span>
+                            </div>
+                            <p className="text-center my-4 text-slate-500 text-lg leading-relaxed">
+                                <a href="https://vpn-expat.online/">Вернуться на сайт</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </>
+        ) : null}
     </>
   );
 };

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
 import LogoVPN from "../../public/assets/Logo.svg";
+import ButtonPrimary from "../misc/ButtonPrimary";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
@@ -100,7 +101,7 @@ const Header = () => {
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <ButtonOutline>Получить ключ</ButtonOutline>
+            <ButtonPrimary>Получить ключ</ButtonPrimary>
           </div>
         </nav>
       </header>
