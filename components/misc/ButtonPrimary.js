@@ -39,8 +39,30 @@ const ButtonPrimary = ({ children, addClass }) => {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                   <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                    Ключ будет отправлен в течение нескольких часов на Ваш E-mail.
+                    Заполните форму и получите персональный <strong>ключ</strong> на Ваш E-mail.
                   </p>
+
+                  <div className="mb-3 pt-0">
+                    <input type="text" placeholder="Имя и фамилия" className="px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full" />
+                  </div>
+
+                  <div className="mb-3 pt-0">
+                    <input type="text" placeholder="E-mail" className="px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full" />
+                  </div>
+
+                  <div className="mb-3 pt-0">
+                    <input type="text" placeholder="Ссылка на аккаунт в социальной сети" className="px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full" />
+                  </div>
+
+                  <div className="mb-3 pt-0">
+                    <p className="my-4 text-slate-500 text-base leading-relaxed">
+                      Тарифный план:
+                    </p>
+                    <input type="text" placeholder="Пробный / Стандартный / Премиальный" className="px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full" />
+                  </div>
+
+
+
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
@@ -54,7 +76,7 @@ const ButtonPrimary = ({ children, addClass }) => {
                   <button
                     className="bg-green-500 text-white active:bg-green-600 text-white-500 font-semibold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"
-                    onClick={() => setShowModal(false)}
+
                   >
                     Получить ключ
                   </button>
