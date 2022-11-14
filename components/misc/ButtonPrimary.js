@@ -10,7 +10,7 @@ const ButtonPrimary = ({ children, addClass }) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('default_', 'template_a74uups', form.current, 'user_fO3AyiyXbeULVSmOOKzg0')
+    emailjs.sendForm('default_service', 'template_a74uups', form.current, 'user_fO3AyiyXbeULVSmOOKzg0')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
